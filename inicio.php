@@ -12,13 +12,13 @@
             <div class="col">
               
                 <div class="jumbotron">
-  <h1 class="display-4">Sistema 2 c!</h1>
-  <p class="lead">sistema desenvolvido pelos alunos de informática</p>
+  <h1 class="display-4"style="color:green">Sistema 2 c!</h1>
+  <p class="lead"style="color:green">sistema desenvolvido pelos alunos de informática</p>
   <hr class="my-4">
   <p>EEEP PAULO BARBOSA LEITE</p>
   <p class="lead">
-    <a class="btn btn-primary btn-lg" href="cadrasto.php" role="button">cadastre-se</a>
-    <a class="btn btn-primary btn-lg" href="pesquisa.php" role="button">pesquisar</a>
+    <a class="btn btn-primary btn-lg" href="cadrasto.php"style="color:red" role="button">cadastre-se</a>
+    <a class="btn btn-primary btn-lg" href="pesquisa.php"style="color:red" role="button">pesquisar</a>
   </p>
 </div>
                

@@ -18,25 +18,25 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1 style="color:pink">Pesquisa</h1>
+                <h1 style="color:red">Pesquisa</h1>
                 <nav class="navbar navbar-light bg-light">
   <form class="form-inline" method="POST" action="pesquisa.php">
-    <input class="form-control mr-sm-2" type="search" placeholder="buscar" aria-label="Search"><br>
+    <input class="form-control mr-sm-2" type="search"style="color:red" placeholder="buscar"  aria-label="Search"><br>
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit"style="color:red">digite aqui</button>
   </form>
 </nav>
 <table class="table table-hover">
   <thead>
     <tr>
-      <th scope="col">Nome</th>
-      <th scope="col">Email</th>
-      <th scope="col">Açoes</th>
+      <th scope="col"style="color:red">Nome</th>
+      <th scope="col"style="color:red">Email</th>
+      <th scope="col"style="color:red">Açoes</th>
     </tr>
   </thead>
   <tbody>
     <?php 
     while ($linha =  mysqli_fetch_assoc($dados)){
-      $id=$linha['id'];
+       $id=$linha['id'];
       $nome=$linha['nome'];
       $email=$linha['email'];
 
