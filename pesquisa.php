@@ -21,7 +21,7 @@
                 <h1 style="color:red">Pesquisa</h1>
                 <nav class="navbar navbar-light bg-light">
   <form class="form-inline" method="POST" action="pesquisa.php">
-    <input class="form-control mr-sm-2" type="search"style="color:red" placeholder="buscar"  aria-label="Search"><br>
+    <input class="form-control mr-sm-2" type="search"style="color:red" placeholder="buscar"  aria-label="Search" name="busca"><br>
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit"style="color:red">digite aqui</button>
   </form>
 </nav>
