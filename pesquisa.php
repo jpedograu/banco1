@@ -12,25 +12,26 @@
     <?php
     $pesquisa =$_POST['busca']??'';
     include "conexao.php";
-    $sql="SELECT * FROM usuario where nome LIKE '%$pesquisa%'";
+    $sql="SELECT * FROM usuario WHERE nome LIKE '%$pesquisa%'";
     $dados = mysqli_query($conexao,$sql);
     ?>
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1 style="color:red">Pesquisa</h1>
+                <h1 style="color:purple">Pesquisa</h1>
                 <nav class="navbar navbar-light bg-light">
   <form class="form-inline" method="POST" action="pesquisa.php">
-    <input class="form-control mr-sm-2" type="search"style="color:red" placeholder="buscar"  aria-label="Search" name="busca"><br>
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"style="color:red">digite aqui</button>
+    <input class="form-control mr-sm-2" type="search"style="color:purple" placeholder="buscar"  aria-label="Search" name="busca"><br>
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"style="color:purple">digite aqui</button>
   </form>
 </nav>
 <table class="table table-hover">
   <thead>
     <tr>
-      <th scope="col"style="color:red">Nome</th>
-      <th scope="col"style="color:red">Email</th>
-      <th scope="col"style="color:red">Açoes</th>
+    <th scope="col"style="color:purple">id</th>
+      <th scope="col"style="color:purple">Nome</th>
+      <th scope="col"style="color:purple">Email</th>
+      <th scope="col"style="color:purple">Açoes</th>
     </tr>
   </thead>
   <tbody>
@@ -41,10 +42,11 @@
       $email=$linha['email'];
 
       echo "<tr>
+      <td>$id</td>
       <td>$nome</td>
       <td>$email</td>
 
-      <td width= 150px><a href='editarcad.php? id=$id' class='btn btn-success btn-sm'>Editar</a>
+      <td width= 150px><a href='editar.php? id=$id' class='btn btn-success btn-sm'>Editar</a>
                 <a href=' ' class='btn btn-danger btn-sm' data-taggle='modal' data-target='#confirma'>excluir</a>
                  </td>
     
