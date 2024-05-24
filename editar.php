@@ -15,7 +15,7 @@
     $sql = "SELECT * FROM usuario WHERE id=$id";
 
     $dados = mysqli_query($conexao, $sql);
-   $linha = mysqli_fetch_assoc($dados);
+    $linha = mysqli_fetch_assoc($dados);
 
 
 
@@ -28,7 +28,7 @@
                 <form action="edit_cad.php" method="POST">
                     <div class="mb-3">
                         <label for="nome" class="form-label">Nome Completo</label>
-                       <input type="text" class="form-control" name="nome" required value=<?php echo $linha['nome']; ?>>
+                        <input type="text" class="form-control" name="nome" required value=<?php echo $linha['nome']; ?>>
 
 
 
@@ -40,9 +40,9 @@
 
                         <input type="submit" class="btn btn-success" value="salva Alteração">
                         <input type="hidden" name="id" value="<?php echo $linha['id']; ?>">
-                        
-                  
-                    <a href="inicio.php" class=" btn btn-info">Voltar ao Inicio</a>
+
+
+                        <a href="inicio.php" class=" btn btn-info">Voltar ao Inicio</a>
                     </div>
             </div>
         </div>
