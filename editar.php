@@ -30,6 +30,18 @@
                         <label for="nome" class="form-label">Nome Completo</label>
                         <input type="text" class="form-control" name="nome" required value=<?php echo $linha['nome'];?>>
 
+                        <label for="endereco" class="form-label">endeco</label>
+                        <input type="text" class="form-control" name="endereco" required value=<?php echo $linha['endereco'];?>>
+
+                        <label for="telefone" class="form-label">telefone</label>
+                        <input type="text" class="form-control" name="telefone" required value=<?php echo $linha['telefone'];?>>
+
+                        <label for="data" class="form-label">data</label>
+                        <input type="date" class="form-control" name="data" required value=<?php echo $linha['data'];?>>
+
+
+
+
                         <label for="email" class="form-label">email</label>
                         <input type="email" class="form-control" name="email" required value=<?php echo $linha['email'];?>>
 
