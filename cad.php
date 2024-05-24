@@ -5,7 +5,7 @@ $endereco=$_POST['endereco'];
 $telefone=$_POST['telefone'];
 $data=$_POST['data'];
 $email=$_POST['email'];
-$senha=md5($POST['senha'];
+$senha=md5($POST['senha']);
 
 
     $sql= "INSERT INTO usuario(nome,endereco,telefone,data, email, senha)
