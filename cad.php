@@ -1,7 +1,11 @@
 <?php
 include ("conexao.php");
 $nome=$_POST['nome'];
+$nome=$_POST['endereco'];
 $email=$_POST['email'];
+
+
+
 $senha= password_hash ($_POST['senha'],PASSWORD_DEFAULT);
 
 
