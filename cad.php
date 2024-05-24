@@ -1,12 +1,11 @@
 <?php
 include ("conexao.php");
 $nome=$_POST['nome'];
-$nome=$_POST['endereco'];
+$endereco=$_POST['endereco'];
+$telefone=$_POST['telefone'];
+$data=$_POST['data'];
 $email=$_POST['email'];
-
-
-
-$senha= password_hash ($_POST['senha'],PASSWORD_DEFAULT);
+$senha=md5($POST['senha'];
 
 
     $sql= "INSERT INTO usuario(nome, email, senha)
