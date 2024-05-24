@@ -8,8 +8,8 @@ $email=$_POST['email'];
 $senha=md5($POST['senha'];
 
 
-    $sql= "INSERT INTO usuario(nome, email, senha)
-    VALUES('$nome', '$email', '$senha')";
+    $sql= "INSERT INTO usuario(nome,endereco,telefone,data, email, senha)
+    VALUES('$nome','$endereco','$telefobe','$data', '$email', '$senha')";
     if($conexao=mysqli_query($conexao, $sql)){
         echo"cadastro realizado com sucesso";
     }
