@@ -30,9 +30,6 @@
     <tr>
     <th scope="col"style="color:purple">id</th>
       <th scope="col"style="color:purple">Nome</th>
-      <th scope="col"style="color:purple">endereco</th>
-      <th scope="col"style="color:purple">telefone</th>
-      <th scope="col"style="color:purple">data Nascimento</th>
       <th scope="col"style="color:purple">Email</th>
       <th scope="col"style="color:purple">acoes</th>
     </tr>
@@ -42,18 +39,11 @@
     while ($linha =  mysqli_fetch_assoc($dados)){
        $id=$linha['id'];
       $nome=$linha['nome'];
-      $endereco=$linha['endereco'];
-      $telefone=$linha['telefone'];
-      $data=['data'];
-      $data=mostra_data($data);
       $email=$linha['email'];
 
       echo "<tr>
       <td>$id</td>
       <td>$nome</td>
-      <td>$endereco</td>
-      <td>$telefone</td>
-      <td>$data</td>
       <td>$email</td>
 
       <td width= 150px><a href='editar.php? id=$id' class='btn btn-success btn-sm'>Editar</a>

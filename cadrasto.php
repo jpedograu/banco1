@@ -18,15 +18,6 @@
                         <label for="nome" class="form-label">Nome Completo</label>
                         <input type="text" class="form-control" name="nome">
 
-                        <label for="endereco" class="form-label">seu endereço</label>
-                        <input type="text" class="form-control" name="endereco">
-
-                        <label for="telefone" class="form-label">telefone</label>
-                        <input type="text" class="form-control" name="telefone">
-
-                        <label for="data" class="form-label">data de nascimento</label>
-                        <input type="date" class="form-control" name="data">
-
                         <label for="email" class="form-label">email</label>
                         <input type="email" class="form-control" name="email">
 
@@ -35,7 +26,7 @@
 
                         <input type="submit" class="btn btn-success">
                     </div>
-
+                    <a href="inicio.php" class=" btn btn-info">Voltar ao Inicio</a>
             </div>
         </div>
     </div>
