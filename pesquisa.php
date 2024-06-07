@@ -81,12 +81,20 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
+              <input type="hiddden" id="nome_pessoa1" name="nome">
+              <input type="hidden" id="cod_pessoa" name="id">
               <button type="button" class="btn btn-primary">Sim</button>
             </div>
           </div>
         </div>
       </div>
-
+          <script>
+          function pegar_dados(id,nome) {
+            document.getElementByID("nome_pessoa").InnerHTML = nome;
+            document.getElementByID("nome_pessoa1").value = nome;
+            document.getElementByID("cod_pessoa").value = id;
+          }
+          </script>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
