@@ -21,8 +21,10 @@
         <h1>pesquisa</h1>
         <nav class="navbar navbar-light bg-light">
           <form class="form-inline" method="POST" action="pesquisa.php">
-            <input class="form-control mr-sm-2" type="search" placeholder="Não digite aqui" aria-label="Search" name="busca">
+            <input class="form-control mr-sm-2" type="search" placeholder=" digite aqui" aria-label="Search" name="busca"><br>
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisa</button>
+      
+           <br> <a href="inicio.php" class=" btn btn-info">Voltar ao Inicio</a>
           </form>
         </nav>
         <table class="table table-hover">
@@ -76,7 +78,7 @@
                       
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
                       <input type="hidden" name="nome" id="nome_pessoa1" value="">
                       <input type="hidden" name="id" id="cod_pessoa" value="">
                       <input type="submit" class="btn btn-primary" value="Sim">
@@ -94,7 +96,7 @@
                 </script>
 
                 
-<a href="inicio.php" class=" btn btn-info">Voltar ao Inicio</a>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
