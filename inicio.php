@@ -7,17 +7,25 @@
     <title>Bootstrap demo</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
-
+<style>
+  body{
+    background-image: linear-gradient(to right, #4ECDC4, #556270);
+  }
+  .container{
+    background-image: linear-gradient(to right, #4ECDC4, #556270);
+  }
+  
+  </style>
 <body>
     <div class="container">
         <div class="row">
             <div class="col">
 
                 <div class="jumbotron">
-                    <h1 class="display-4" style="color:black">Sistema 2 c!</h1>
-                    <p class="lead" style="color:purple">sistema desenvolvido pelos alunos de informática</p>
+                    <h1 class="display-4" style="color:white">Sistema 2 c!</h1>
+                    <p class="lead" style="color:white">sistema desenvolvido pelos alunos de informática</p>
                     <hr class="my-4">
-                    <p>EEEP PAULO BARBOSA LEITE</p>
+                    <p style="color:white">EEEP PAULO BARBOSA LEITE</p>
                     <p class="lead">
                         <a class="btn btn-primary btn-lg" href="cadrasto.php" role="button">cadastre-se</a>
                         <a class="btn btn-primary btn-lg" href="pesquisa.php" role="button">pesquisar</a>

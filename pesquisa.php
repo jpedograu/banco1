@@ -18,7 +18,7 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <h1>pesquisa</h1>
+        <h1 style="color: purple;">pesquisa</h1>
         <nav class="navbar navbar-light bg-light">
           <form class="form-inline" method="POST" action="pesquisa.php">
             <input class="form-control mr-sm-2" type="search" placeholder=" digite aqui" aria-label="Search" name="busca"><br>
@@ -28,12 +28,12 @@
           </form>
         </nav>
         <table class="table table-hover">
-          <thead>
+          <thead >
             <tr>
-              <th scope="col">Id</th>
-              <th scope="col">Nome</th>
-              <th scope="col">Email</th>
-              <th scope="col">Açoes</th>
+              <th scope="col"style="color: purple;">Id</th>
+              <th scope="col"style="color: purple;">Nome</th>
+              <th scope="col"style="color: purple;">Email</th>
+              <th scope="col"style="color: purple;">Açoes</th>
             </tr>
           </thead>
           <tbody>
@@ -48,7 +48,7 @@
       <td>$nome</td>
       <td>$email</td>
 
-      <td width= 150px><a href='editar.php? id=$id' class='btn btn-success btn-sm'>Editar</a>
+      <td width= 150px><a href='editar.php? id=$id' class='btn btn-success btn-sm' >Editar</a>
                 <a href='#' class='btn btn-danger btn-sm' data-tOggle='modal' data-target='#confirma'
                 onclick=".'"'."pegar_dados($id, '$nome')".'"'.">Excluir</a>
                  </td>
@@ -87,6 +87,8 @@
                   </div>
                 </div>
               </div>
+
+           
               <script>
                 function pegar_dados(id,nome){
                   document.getElementById("nome_pessoa").innerHTML = nome;

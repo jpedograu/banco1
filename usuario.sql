@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 05/06/2024 às 12:48
+-- Tempo de geração: 13/06/2024 às 18:38
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.0.30
 
@@ -39,7 +39,6 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`id`, `nome`, `email`, `senha`) VALUES
-(1, 'jp', 'jpgostosao@gmail.com', '$2y$10$k6tTBPnOnMt15M0tY.xL4Oi'),
 (2, 'vitorkeima', 'vitorkeimade4@gmail.com', '$2y$10$oIhOQ4teTCoflhanNWyxs.j');
 
 --

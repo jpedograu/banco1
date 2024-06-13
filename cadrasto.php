@@ -7,15 +7,22 @@
     <title>Bootstrap demo</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
-
+<style>
+  body{
+    background-image: linear-gradient(to right, #4ECDC4, #556270);
+  }
+  .container{
+    background-image: linear-gradient(to right, #4ECDC4, #556270);
+  }
+  </style>
 <body>
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1>Cadastre-se</h1>
+                <h1 style="color:white">Cadastre-se</h1>
                 <form action="cad.php" method="POST">
                     <div class="mb-3">
-                        <label for="nome" class="form-label">Nome Completo</label>
+                        <label for="nome" class="form-label"  style="color:white">Nome Completo</label>
                         <input type="text" class="form-control" name="nome">
 
                         <label for="email" class="form-label">email</label>
