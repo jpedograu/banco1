@@ -20,7 +20,7 @@
 include "conexao.php";
 $nome=$_POST['nome'];
 $email=$_POST['email'];
-$senha=password_hash($_POST['senha'],PASSWORD_DEFAULT);
+$senha=md5($_POST['senha']);
 
 $consulta= "INSERT INTO usuario(nome,email,senha)
  VALUES('$nome', '$email', '$senha')";

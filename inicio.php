@@ -29,7 +29,7 @@
                     <p class="lead">
                         <a class="btn btn-primary btn-lg" href="cadrasto.php" role="button">cadastre-se</a>
                         <a class="btn btn-primary btn-lg" href="pesquisa.php" role="button">pesquisar</a>
-                        <a class="btn btn-primary btn-lg" href="pesquisa.php" role="button">loguin</a>
+                        <a class="btn btn-primary btn-lg" href="login.php" role="button">loguin</a>
                     </p>
                 </div>
 
