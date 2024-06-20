@@ -24,7 +24,7 @@
             <input class="form-control mr-sm-2" type="search" placeholder=" digite aqui" aria-label="Search" name="busca"><br>
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisa</button>
       
-           <br> <a href="inicio.php" class=" btn btn-info">Voltar ao Inicio</a>
+          
           </form>
         </nav>
         <table class="table table-hover">
@@ -96,7 +96,7 @@
                   document.getElementById("cod_pessoa").value = id;
                 }
                 </script>
-
+        <br> <a href="inicio.php" class=" btn btn-info">Voltar ao Inicio</a>
                 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
